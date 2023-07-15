@@ -87,6 +87,12 @@ Entry::clearInRecords()
   m_inRecords.clear();
 }
 
+void
+Entry::clearOutRecords()
+{
+  m_outRecords.clear();
+}
+
 OutRecordCollection::iterator
 Entry::getOutRecord(const Face& face)
 {

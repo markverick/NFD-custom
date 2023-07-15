@@ -153,6 +153,11 @@ public: // in-record
   void
   clearInRecords();
 
+  /** \brief delete all out-records
+   */
+  void
+  clearOutRecords();
+
 public: // out-record
   /** \return collection of in-records
    */
